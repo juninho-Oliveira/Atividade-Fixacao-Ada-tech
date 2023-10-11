@@ -105,18 +105,14 @@ span {
     color: white;
 }
 
-.cards-redes a:hover {
-    color: rgb(247, 0, 53);
-}
-
-/*Estilo para se a tela for menor que 970px*/
+/*Estilo se a tela for menor que 970px*/
 
 @media (max-width:970px) {
 /*estilo do main */
 
     main {
         display: block;
-        width: 414px;
+        height: 900px;
     }
 
     /*estilo do perfil imagem e foto de perfil  */
@@ -160,42 +156,23 @@ span {
     }
 
     .container-cards .container-principal {
-        border: 1px solid red;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         width: 100%;
         height: 500px;
+        padding: 10px;
     }
-
-    .containercards-redes{
-        display: none;
-    }
-
-    .container-cards .container-principal .container-flex h3{
-        display: none;
-    } 
-
-    span {
-        display: none;
+    .container-flex {
+        margin-top: -80px;
     }
 
     .container-cards .container-principal .container-flex p {
-        display: none;
-    }
-
-    .container-cards .container-principal .cards-redes img {
-        display: none;
-    }
-
-    .container-cards .container-principal .cards-redes {
-        display: none;
+        font-size: 20px;
     }
 
     .cards-redes a {
-        display: none;
+        font-size: 14px;
     }
-
-
 }
