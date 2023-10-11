@@ -11,3 +11,6 @@ Atividade de fixação 1(escopo fechado):
     <li>Link para o Linkedin</li>
     <li>Uma foto usando a tag "img"</li>
   </ul>
+
+Link para o site!!!!
+<a href="https://atividade-fixacao-ada-tech.vercel.app/">atividade-fixacao-ada-tech</a>
