@@ -108,3 +108,94 @@ span {
 .cards-redes a:hover {
     color: rgb(247, 0, 53);
 }
+
+/*Estilo para se a tela for menor que 970px*/
+
+@media (max-width:970px) {
+/*estilo do main */
+
+    main {
+        display: block;
+        width: 414px;
+    }
+
+    /*estilo do perfil imagem e foto de perfil  */
+    .perfil {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 350px;
+        background-image: url(/imagem/fundo-abstrato-com-design-baixo-poli.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    .perfil .foto-de-perfil {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid white;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+    }
+
+    .perfil .foto-de-perfil  img {
+        display: flex;
+        align-items: center;
+
+    }
+
+    /*estilo do cards textos, Linkedin, Github*/
+    .container-cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -10px;
+        background-color: #073263;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-cards .container-principal {
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+    }
+
+    .containercards-redes{
+        display: none;
+    }
+
+    .container-cards .container-principal .container-flex h3{
+        display: none;
+    } 
+
+    span {
+        display: none;
+    }
+
+    .container-cards .container-principal .container-flex p {
+        display: none;
+    }
+
+    .container-cards .container-principal .cards-redes img {
+        display: none;
+    }
+
+    .container-cards .container-principal .cards-redes {
+        display: none;
+    }
+
+    .cards-redes a {
+        display: none;
+    }
+
+
+}
