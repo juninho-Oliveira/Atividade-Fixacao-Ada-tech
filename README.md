@@ -14,3 +14,15 @@ Atividade de fixação 1(escopo fechado):
 
 Link para o site!!!!
 <a href="https://atividade-fixacao-ada-tech.vercel.app/">atividade-fixacao-ada-tech</a>
+
+Ativida de fixação 3 (escopo fechado):
+
+-Criar um formulário;
+  <ul>
+    <li>Utilizar labels com for para cada input</li>
+    <li>Utilizar as propriedades id e name</li>
+    <li>Utilizar pelo menos 5 tipos de inputs diferentes</li>
+    <li>Utilizar uma API(dada pelo professor) para registrar os dados</li>
+  </ul>
+
+
