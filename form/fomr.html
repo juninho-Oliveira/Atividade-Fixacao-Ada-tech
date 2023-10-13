@@ -20,30 +20,38 @@
       <section class="container-cards">
         <div class="container-principal">
 
-          <div class="container-form" action="">
-            <h2>Preencha o formulario</h2>
+          <div class="container-form" >
 
-            <form action="">
+            <div class="titulo">
+              <h2>Preencha o formulario</h2>
+            </div>
 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome">
+            <form  method="post" action="https://6529714e55b137ddc83ed6ce.mockapi.io/api/v1/users">
 
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade">
+            <label for="nome">Nome: <input autocomplete="off" type="text" id="nome" name="name"></label>
+            
 
-            <label for="email">email:</label>
-            <input type="text" id="email" name="email">
+            <label for="idade">Idade: <input type="number" id="idade" name="idade"></label>
+            
+
+            <label for="email">Email: <input autocomplete="off" id="email" name="email"></label>
+            
         
-            <label for="data">Data do seu aniversário</label>
+            <label for="data">Data de nascimento</label>
             <input type="date" id="data" name="data">
 
-            <h4>Sexo</h4>
-            <input type="radio" id="email" name="email"> Heterossexual <br/>
-            <input type="radio" id="email" name="email"> Homossexual <br/>
-            <input type="radio" id="email" name="email"> Bissexual <br/>
-            <input type="radio" id="email" name="email"> Assexual <br/>
-            <input type="radio" id="email" name="email"> Pansexual <br/>
             
+            <div class="sexo">
+              <h3>Identidade de genero:</h3>
+              <label for="Heterossexual"><input type="radio" id="Heterossexual" name="sexo">Heterossexual</label>
+              <label for="Homossexual"><input type="radio" id="Homossexual" name="sexo">Homossexual</label>
+              <label for="Bissexual"><input type="radio" id="Bissexual" name="sexo">Bissexual</label>
+              <label for="Assexual"><input type="radio" id="Assexual" name="sexo">Assexual </label>
+              <label for="Pansexual"><input type="radio" id="Pansexual" name="sexo">Pansexual</label>
+
+            </div>
+
+            <button type="submit">Enviar</button>
             
             </form> 
           </div>
@@ -58,6 +66,11 @@
               <img src="/imagem/Github.png" alt="Linkedin">
               <a href="https://github.com/juninho-Oliveira" target="_blank">Acesse o Github</a>
           </div>
+
+          <div class="cards-redes">
+            <img src="/imagem/voltar.png" alt="Contato">
+            <a href="/index.html" >Voltar</a>
+        </div>
           
         </div>
         </div>
